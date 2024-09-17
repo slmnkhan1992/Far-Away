@@ -1,0 +1,40 @@
+.Form {
+    background-color: #df6b1b;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#input {
+    background-color: #fde7aa;
+    color: black;
+    border: none;
+    outline: none;
+    width: 230px;
+    height: 30px;
+    border-radius: 20px;
+    padding: 0px 10px;
+}
+
+select {
+    background-color: #fde7aa;
+    border: none;
+    outline: none;
+    width: 70px;
+    height: 30px;
+    border-radius: 20px;
+    padding: 0px 5px;
+}
+
+.AddBtn {
+    background-color: #67c1a3;
+    width: 70px;
+    height: 30px;
+    border-radius: 20px;
+    color: black;
+    border: none;
+    outline: none;
+    font-weight: 600;
+}

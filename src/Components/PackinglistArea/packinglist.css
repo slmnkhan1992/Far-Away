@@ -1,0 +1,62 @@
+.PackingList {
+    background-color: hsl(25, 37%, 22%);
+    height: 350px;
+    padding: 10px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.item {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+#checkBox {
+    background-color: #fde7aa;
+    cursor: pointer;
+}
+
+#itemText {
+    color: #fde7aa;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}   
+
+.strikethrough {
+    text-decoration: line-through; /* Apply strikethrough */
+}
+
+.Sort {
+    width: 200px;
+    height: 40px;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.itemList {
+    display: flex;
+    justify-content: flex-start;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.clearlist {
+    background-color: #fde7aa;
+    border: none;
+    outline: none;
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 1rem;
+
+}
+
+.LowerArea {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;   
+}
